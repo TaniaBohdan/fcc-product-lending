@@ -13,6 +13,10 @@
       --body-back-change-color: rgb(226, 163, 26);
   }
   
+  a {
+    text-decoration: none;
+  }
+  
   h1 {
     color:blue;
     font-weight: bold;
