@@ -1,0 +1,16 @@
+header {
+    background-color: var(--header-back-color);
+   position: fixed;
+   top: 0;
+   min-height: 75px;
+   padding: 0 20px;
+  }
+
+ @media(min-wight: 280px) {
+   header {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+ 
+   } 
+}
