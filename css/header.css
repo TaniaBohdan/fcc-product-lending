@@ -1,28 +1,49 @@
 .header__nav-logo {
-  font-size: 5rem;
+  font-size: 3rem;
   text-decoration: solid;
   text-transform: uppercase;
-  text-align: center;
+  text-align: right;
+  display: block;
+}
+.header__nav-menu {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  align-items: center;
+  justify-content:space-around;
+  flex: 1;  
 }
 
 .header__nav {
   background-color: var(--header-nav-color);
+  display: block;
+  
+  
+  }
+
+@media (min-width: 380px) {
+  .header__nav < .container {
+    display: flex;
+    
+  }
+  .header__nav-menu {
+    flex-direction: row;
+  
+  
+  }
 }
 
-.header__nav-menu {
-  display: flex;
-  flex-direction: column;
-  padding: 5px;
-}
 .nav-link a {
   text-decoration: none;
-  color: var(--text-color);
+
 }
 
 .nav-link a:hover {
   text-decoration: underline;
 }
 
-
-
-
+#header-img {
+  height: 50px;
+  width: 50px;
+  padding-top: 10px;
+}
