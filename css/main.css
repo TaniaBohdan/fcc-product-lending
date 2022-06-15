@@ -1,87 +1,93 @@
-body {
-    background-color: var(--body-back-color);
-       }
+#hero {
+  padding-top: 80px;
+  padding-bottom: 0;
+}
 
-    @media (max-width: 600px) {
-    #body {
-        background-color: var(--body-back-change-color);
-      }
+body {
+  background-color: var(--body-back-color);
+}
+
+@media (max-width: 600px) {
+  #body {
+    background-color: var(--body-back-change-color);
   }
-  .fa-fire::before {
-    content: "";
-  }
-  .fa-truck::befor {
-    content: "";
-  }
-  .fa-buttery-full::befor {
-    content: "";
-  }
-    #hero {
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      height: 200px;
-      margin-top: 50px;
-    }
-    #features .desc {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      width: 80vw;
-      padding: 5px;
-    }
-    #pricing {
-      margin-top: 60px;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-    }
-    .product {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      width: calc(100% / 3);
-      margin: 10px;
-      border: 1px solid #000;
-      border-radius: 3px;
-  }
-  
-  
-  .product > button {
-      border: 0;
-      margin: 15px 0;
-      background-color: var(--button-color);
-      font-weight: 400;
-  }
-  .btn {
-      padding: 0 20px;
-      height: 40px;
-      font-size: 1em;
-      text-transform: uppercase;
-      border-radius: 2px;
-      background: transparent;
-      cursor: pointer;
-  }
-  #hero input[type='submit'] {
-      max-width: 150px;
-      width: 100%;
-      height: 30px;
-      margin: 15px 0;
-      border: 0;
-      background-color: var(--button-color);
-  }
- 
-  img {
-    width: 100px;
-    height: 100px;
-  }
-  .video__youtube{
-    height: 315px;
-    width: 560px;
-    }
-  #how-it-works {
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;  
-      }
+}
+
+#hero {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  margin-top: 50px;
+}
+
+.program {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80vw;
+  padding-top: 0;
+  margin-top: 0;
+  border-top: 0;
+  margin-left: 50px
+}
+
+#pricing {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100% / 3);
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+
+.product>button {
+  border: 0;
+  margin: 15px 0;
+  background-color: var(--button-color);
+  font-weight: 400px;
+}
+
+.btn {
+  padding: 0 20px;
+  height: 40px;
+  font-size: 1em;
+  text-transform: uppercase;
+  border-radius: 2px;
+  background: transparent;
+  cursor: pointer;
+}
+
+#hero input[type='submit'] {
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  margin: 15px 0;
+  border: 0;
+  background-color: var(--button-color);
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.video__youtube {
+  height: 315px;
+  width: 560px;
+}
+
+#how-it-works {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
