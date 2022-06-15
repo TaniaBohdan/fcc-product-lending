@@ -11,14 +11,12 @@
       --button-color: #cc4624;
       --body-back-color: rgb(224, 236, 55);
       --body-back-change-color: rgb(226, 163, 26);
-      --text-color: rgb(0, 0, 0);
-      
-  }
+      --text-color: rgb(0, 0, 0);      
+    }
 
   .container {
     max-width: 980px;
     margin: auto;
-
   }
   
   a {
